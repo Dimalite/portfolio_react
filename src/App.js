@@ -35,8 +35,9 @@ function App() {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyles />
-          {open && <Modal toggleHandler={toggleHandler} />}
-          {!open && <Header />}
+          {/* {open && <Modal toggleHandler={toggleHandler} />} */}
+          {/* {!open && <Header />} */}
+
           <Navbar />
           <Home />
           <Projects />
